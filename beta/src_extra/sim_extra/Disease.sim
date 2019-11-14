@@ -1,0 +1,10 @@
+// This sim file runs the Mindinao refugee analysis against each digital populations realization, in SQLite format
+
+import static oms3.SimBuilder.instance as OMS3
+
+OMS3.graph (path: "/src_extra/sim_extra/topo_rlz.csv",
+            simpath: "/src_extra/sim_extra/rlz_psql/") {
+
+	build()
+    graph(traverser: "downstream.all")
+}

@@ -1,0 +1,8 @@
+/*
+ * Hello 'world' example.
+ *   A component printing a greeting.
+ */
+import static oms3.SimBuilder.instance as OMS3
+
+def rlz = "028"
+#include "/work/simulation/common.inc"
